@@ -15,9 +15,9 @@ st.text(datetime.date.today())
 """
 ## 今週のロング銘柄・ショート銘柄
 """
-df1 = pd.read_csv('https://github.com/ryuichikg/vivo-get/blob/main/KS211.csv', encoding='shift_jis', index_col=0)
-df3 = pd.read_csv('https://github.com/ryuichikg/vivo-get/blob/main/KS212.csv', encoding='shift_jis', index_col=0)
-df2 = pd.read_csv('https://github.com/ryuichikg/vivo-get/blob/main/KS22.csv', encoding='shift_jis', index_col=0)
+df1 = pd.read_csv('https://github.com/ryuichikg/vivo-get/blob/main/KS211.csv', encoding='utf-8', index_col=0)
+df3 = pd.read_csv('https://github.com/ryuichikg/vivo-get/blob/main/KS212.csv', encoding='utf-8', index_col=0)
+df2 = pd.read_csv('https://github.com/ryuichikg/vivo-get/blob/main/KS22.csv', encoding='utf-8', index_col=0)
 #st.dataframe(df)
 df1
 df3
