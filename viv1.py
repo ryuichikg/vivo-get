@@ -3,6 +3,7 @@
 import streamlit as st
 import pandas as pd
 import datetime
+from PIL import Image
 
 #pd.set_option('display.unicode.east_asian_width', True)
 st.title('ロング・ショート戦略')
@@ -68,3 +69,10 @@ if submit == True:
     st.bar_chart(data.set_index('NT'))
     # plt.bar(df)
 st.write("投資のご判断は自己責任で")
+
+image = Image.open('nt01.jpg')
+
+st.image(image, caption='NTチャート',use_column_width=True)
+
+st.write('ご契約ありがとうございます')
+
