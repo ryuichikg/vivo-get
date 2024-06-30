@@ -35,9 +35,10 @@ df2
 st.write('１．プライム市場で取引量のある主要銘柄を選定')
 st.write('２．各々３銘柄を売買い保有')
 st.write('３．一定の利益または損失がでたら一括決済')
-st.write('先週の実績 買い推奨全 +280.9')
-st.write('先週の実績 売り推奨全 +504.5')
-
+txt1 = '<p style="color:red;">先週の実績 買い推奨５銘柄計 +280.9円</p>'
+st.write(txt1, unsafe_allow_html=True)
+txt2 = '<p style="color:red;">先週の実績 売り推奨５銘柄計 +504.5円</p>'
+st.write(txt2, unsafe_allow_html=True)
 
 """
 ##  ＮＴ倍率
