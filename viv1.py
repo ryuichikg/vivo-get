@@ -9,7 +9,7 @@ from PIL import Image
 st.title('ロング・ショート戦略')
 #color = st.color_picker('summer sales contest', '#87ceeb')
 
-txt0 = '<p style="color:red;">※7月14日に米国にて暗殺未遂事件発生のため要注意</p>'
+txt0 = '<p style="color:red;">※7月14日に米国にて暗殺未遂事件発生のため大荒れ要注意</p>'
 st.write(txt0, unsafe_allow_html=True)
 
 
@@ -105,11 +105,11 @@ st.image(Image4,caption='XAUチャート日足',use_column_width=True)
 ### 先物 SQ 41531  +5310円
 ### オプション -1000円
 
-## 今週のオプション戦略はロングストラドル
+## 今週のOP戦略はロングストラドル
 ### 7月3週SQ
-###・権利行使価格41500
-###・コール@190買い  プット@500買い
-###・合計69000円
+### 権利行使価格41500
+### コール@190買い  プット@500買い
+### 購入費用69000円
 
 """
 
