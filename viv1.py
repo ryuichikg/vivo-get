@@ -19,7 +19,7 @@ st.text('更新日7月28日')
 st.text(datetime.date.today())
 
 """
-## 今週のロング銘柄ショート銘柄
+### 今週のロング銘柄ショート銘柄
 """
 df1 = pd.DataFrame({
     '買い銘柄':['日野自動車','ラウンドワン','メドピア','コシダHD','システナ'],
@@ -45,7 +45,7 @@ txt2 = '<p style="color:red;">先週の実績 売り推奨５銘柄計 +23.94%</
 st.write(txt2, unsafe_allow_html=True)
 
 """
-##  ＮＴ倍率
+###  ＮＴ倍率
 """
 df3 = pd.DataFrame({
     '指数':['日経平均225'],
@@ -71,7 +71,7 @@ data
 
 st.write('14.00付近で膠着。上下どちらへ抜けるか。 :+1:')
 """
-## ＮＴレシオグラフ
+### ＮＴレシオグラフ
 """
 submit = st.button('押して会員登録確定 　●万/月')
 if submit == True:
@@ -83,7 +83,7 @@ image1 = Image.open('nt01.jpg')
 st.image(image1, caption='NTチャート',use_column_width=True)
 
 """
-## 225・XAU・NAS100チャート 
+### 225・XAU・NAS100チャート 
 """
 Image2 = Image.open('bt1.jpg')
 st.image(Image2,caption='225チャート日足',use_column_width=True)
@@ -111,7 +111,6 @@ st.image(Image4,caption='NAS100チャート日足',use_column_width=True)
 
 """
 """
-##
 ##
 """
 """
