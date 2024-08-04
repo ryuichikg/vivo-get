@@ -127,8 +127,8 @@ st.image(image1, caption='NTチャート',use_column_width=True)
 ##### 想定証拠金48,000円
 ###### SQ持込せずに一定の利益で決済予定
 """
-image5 = image.open('op1.jpg')
-st.image(image5,caption='オプション損益図',use_column_width=True)
+Image5 = Image.open('oct.jpg')
+st.image(Image5,caption='オプション損益図',use_column_width=True)
 
 
 
