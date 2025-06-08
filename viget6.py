@@ -37,8 +37,8 @@ val3 = st.number_input(
 )
 
 val4 = st.number_input(
-    label="IV変動率（1% = 0.01)",
-    min_value=0.000,  # 最小値
+    label="IV変動率（1% = 1.000表示)",
+    min_value=-100.000,  # 最小値
     max_value=100.000,     # 最大値
     step=0.100,          # 増減のステップ
     format="%.3f"      # 小数点以下2桁まで表示
@@ -55,8 +55,8 @@ val5 = st.number_input(
 #slider=st.slider('範囲指定',min_value=0,max_value=100,step=5)
 
 de1 = nop3 * val1
-ga1 = (nop3*nop3) *val2/2
-be1 = nop3 * val4
+ga1 = ((nop3*nop3) *val2)/2
+be1 = val3 * val4
 se1 = nop4 * val5
 
 st.markdown(':blue[プレミアム価格]')
